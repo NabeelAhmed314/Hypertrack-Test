@@ -1,0 +1,291 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.hypertrack.quickstartflutter"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\Nabeel\Documents\practice\HyperTrack\quickstart-flutter\android\app\src\main\AndroidManifest.xml:37:5-67
+14-->C:\Users\Nabeel\Documents\practice\HyperTrack\quickstart-flutter\android\app\src\main\AndroidManifest.xml:37:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:12:5-79
+15-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:12:22-76
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:14:5-81
+16-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:14:22-78
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:15:5-79
+17-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:15:22-76
+18    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+18-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:16:5-94
+18-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:16:22-91
+19    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+19-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:17:5-81
+19-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:17:22-78
+20    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+20-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:18:5-77
+20-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:18:22-74
+21    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+21-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:19:5-79
+21-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:19:22-76
+22    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+22-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:20:5-85
+22-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:20:22-82
+23    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+23-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\714d0c02fcd97bb5f16c4a6228c6a8f2\jetified-firebase-iid-19.0.0\AndroidManifest.xml:24:5-68
+23-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\714d0c02fcd97bb5f16c4a6228c6a8f2\jetified-firebase-iid-19.0.0\AndroidManifest.xml:24:22-65
+24    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+24-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\714d0c02fcd97bb5f16c4a6228c6a8f2\jetified-firebase-iid-19.0.0\AndroidManifest.xml:26:5-82
+24-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\714d0c02fcd97bb5f16c4a6228c6a8f2\jetified-firebase-iid-19.0.0\AndroidManifest.xml:26:22-79
+25    <!--
+26 io.flutter.app.FlutterApplication is an android.app.Application that
+27         calls FlutterMain.startInitialization(this); in its onCreate method.
+28         In most cases you can leave this as-is, but you if you want to provide
+29         additional functionality it is fine to subclass or reimplement
+30         FlutterApplication and put your custom class here.
+31    -->
+32    <application
+32-->C:\Users\Nabeel\Documents\practice\HyperTrack\quickstart-flutter\android\app\src\main\AndroidManifest.xml:8:5-36:19
+33        android:name="io.flutter.app.FlutterApplication"
+33-->C:\Users\Nabeel\Documents\practice\HyperTrack\quickstart-flutter\android\app\src\main\AndroidManifest.xml:9:9-57
+34        android:allowBackup="true"
+34-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:23:9-35
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.1.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\7db04d04eea01b3ae559526e426be5a4\core-1.1.0\AndroidManifest.xml:24:18-86
+36        android:debuggable="true"
+37        android:fullBackupContent="@xml/hypertrack_sdk_backup_rules"
+37-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:24:9-69
+38        android:icon="@mipmap/ic_launcher"
+38-->C:\Users\Nabeel\Documents\practice\HyperTrack\quickstart-flutter\android\app\src\main\AndroidManifest.xml:12:9-43
+39        android:label="quickstartflutter" >
+39-->C:\Users\Nabeel\Documents\practice\HyperTrack\quickstart-flutter\android\app\src\main\AndroidManifest.xml:10:9-42
+40        <service android:name="com.hypertrack.sdk.service.HyperTrackSDKService" />
+40-->C:\Users\Nabeel\Documents\practice\HyperTrack\quickstart-flutter\android\app\src\main\AndroidManifest.xml:13:9-14:60
+40-->C:\Users\Nabeel\Documents\practice\HyperTrack\quickstart-flutter\android\app\src\main\AndroidManifest.xml:13:18-80
+41
+42        <activity
+42-->C:\Users\Nabeel\Documents\practice\HyperTrack\quickstart-flutter\android\app\src\main\AndroidManifest.xml:15:9-30:20
+43            android:name="com.hypertrack.quickstartflutter.MainActivity"
+43-->C:\Users\Nabeel\Documents\practice\HyperTrack\quickstart-flutter\android\app\src\main\AndroidManifest.xml:16:13-41
+44            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+44-->C:\Users\Nabeel\Documents\practice\HyperTrack\quickstart-flutter\android\app\src\main\AndroidManifest.xml:19:13-163
+45            android:hardwareAccelerated="true"
+45-->C:\Users\Nabeel\Documents\practice\HyperTrack\quickstart-flutter\android\app\src\main\AndroidManifest.xml:20:13-47
+46            android:launchMode="singleTop"
+46-->C:\Users\Nabeel\Documents\practice\HyperTrack\quickstart-flutter\android\app\src\main\AndroidManifest.xml:17:13-43
+47            android:theme="@style/LaunchTheme"
+47-->C:\Users\Nabeel\Documents\practice\HyperTrack\quickstart-flutter\android\app\src\main\AndroidManifest.xml:18:13-47
+48            android:windowSoftInputMode="adjustResize" >
+48-->C:\Users\Nabeel\Documents\practice\HyperTrack\quickstart-flutter\android\app\src\main\AndroidManifest.xml:21:13-55
+49            <intent-filter>
+49-->C:\Users\Nabeel\Documents\practice\HyperTrack\quickstart-flutter\android\app\src\main\AndroidManifest.xml:22:13-25:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->C:\Users\Nabeel\Documents\practice\HyperTrack\quickstart-flutter\android\app\src\main\AndroidManifest.xml:23:17-68
+50-->C:\Users\Nabeel\Documents\practice\HyperTrack\quickstart-flutter\android\app\src\main\AndroidManifest.xml:23:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->C:\Users\Nabeel\Documents\practice\HyperTrack\quickstart-flutter\android\app\src\main\AndroidManifest.xml:24:17-76
+52-->C:\Users\Nabeel\Documents\practice\HyperTrack\quickstart-flutter\android\app\src\main\AndroidManifest.xml:24:27-74
+53            </intent-filter>
+54            <intent-filter>
+54-->C:\Users\Nabeel\Documents\practice\HyperTrack\quickstart-flutter\android\app\src\main\AndroidManifest.xml:26:13-29:29
+55                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+55-->C:\Users\Nabeel\Documents\practice\HyperTrack\quickstart-flutter\android\app\src\main\AndroidManifest.xml:27:17-69
+55-->C:\Users\Nabeel\Documents\practice\HyperTrack\quickstart-flutter\android\app\src\main\AndroidManifest.xml:27:25-66
+56
+57                <category android:name="android.intent.category.DEFAULT" />
+57-->C:\Users\Nabeel\Documents\practice\HyperTrack\quickstart-flutter\android\app\src\main\AndroidManifest.xml:28:17-76
+57-->C:\Users\Nabeel\Documents\practice\HyperTrack\quickstart-flutter\android\app\src\main\AndroidManifest.xml:28:27-73
+58            </intent-filter>
+59        </activity>
+60        <!--
+61             Don't delete the meta-data below.
+62             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+63        -->
+64        <meta-data
+64-->C:\Users\Nabeel\Documents\practice\HyperTrack\quickstart-flutter\android\app\src\main\AndroidManifest.xml:33:9-35:33
+65            android:name="flutterEmbedding"
+65-->C:\Users\Nabeel\Documents\practice\HyperTrack\quickstart-flutter\android\app\src\main\AndroidManifest.xml:34:13-44
+66            android:value="2" />
+66-->C:\Users\Nabeel\Documents\practice\HyperTrack\quickstart-flutter\android\app\src\main\AndroidManifest.xml:35:13-30
+67
+68        <activity
+68-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:25:9-27:73
+69            android:name="com.hypertrack.sdk.permissions.PermissionsRequestActivity"
+69-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:26:13-85
+70            android:theme="@style/HyperTrackActivityThemeTransparent" />
+70-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:27:13-70
+71
+72        <receiver
+72-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:34:9-41:20
+73            android:name="com.hypertrack.sdk.service.HyperTrackSDKFirebaseMessageReceiver"
+73-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:35:13-91
+74            android:exported="true"
+74-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:36:13-36
+75            android:permission="com.google.android.c2dm.permission.SEND" >
+75-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:37:13-73
+76            <intent-filter>
+76-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:38:13-40:29
+77                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+77-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:39:17-81
+77-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:39:25-78
+78            </intent-filter>
+79        </receiver>
+80        <receiver
+80-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:42:9-44:91
+81            android:name="com.hypertrack.sdk.service.activity.TransitionBroadcastReceiver"
+81-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:43:13-91
+82            android:permission="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+82-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:44:13-88
+83        <receiver
+83-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:45:9-47:91
+84            android:name="com.hypertrack.sdk.service.activity.ActivityRecognitionBroadcastReceiver"
+84-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:46:13-100
+85            android:permission="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+85-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:47:13-88
+86        <receiver
+86-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:48:9-51:40
+87            android:name="com.hypertrack.sdk.service.health.receivers.BatteryEventReceiver"
+87-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:49:13-92
+88            android:enabled="true"
+88-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:50:13-35
+89            android:exported="false" />
+89-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:51:13-37
+90        <receiver
+90-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:52:9-61:20
+91            android:name="com.hypertrack.sdk.service.health.receivers.BootEventReceiver"
+91-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:53:13-89
+92            android:enabled="true"
+92-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:54:13-35
+93            android:exported="false" >
+93-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:55:13-37
+94            <intent-filter>
+94-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:56:13-60:29
+95                <action android:name="android.intent.action.BOOT_COMPLETED" />
+95-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:57:17-79
+95-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:57:25-76
+96                <!-- <action android:name="android.intent.action.ACTION_SHUTDOWN" /> -->
+97                <!-- Starting from Android P shutdown receivers should be registered dynamically -->
+98            </intent-filter>
+99        </receiver>
+100        <receiver
+100-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:62:9-65:40
+101            android:name="com.hypertrack.sdk.service.health.receivers.HTOtherHealthEventsReceiver"
+101-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:63:13-99
+102            android:enabled="true"
+102-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:64:13-35
+103            android:exported="false" />
+103-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:65:13-37
+104        <receiver
+104-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:66:9-70:20
+105            android:name="com.hypertrack.sdk.service.health.receivers.LocationProviderStateBroadcastReceiver"
+105-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:67:13-110
+106            android:enabled="true"
+106-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:68:13-35
+107            android:exported="false" >
+107-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:69:13-37
+108        </receiver>
+109
+110        <provider
+110-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:72:9-75:40
+111            android:name="com.hypertrack.sdk.utils.HyperTrackInitProvider"
+111-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:73:13-75
+112            android:authorities="com.hypertrack.quickstartflutter.HyperTrackInitProvider"
+112-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:74:13-74
+113            android:exported="false" />
+113-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:75:13-37
+114        <!--
+115             FirebaseMessagingService performs security checks at runtime,
+116             but set to not exported to explicitly avoid allowing another app to call it.
+117        -->
+118        <service
+118-->[com.google.firebase:firebase-messaging:19.0.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\960e6082b670919b9c04101a66bd9ed5\jetified-firebase-messaging-19.0.0\AndroidManifest.xml:28:9-34:19
+119            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+119-->[com.google.firebase:firebase-messaging:19.0.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\960e6082b670919b9c04101a66bd9ed5\jetified-firebase-messaging-19.0.0\AndroidManifest.xml:29:13-82
+120            android:exported="false" >
+120-->[com.google.firebase:firebase-messaging:19.0.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\960e6082b670919b9c04101a66bd9ed5\jetified-firebase-messaging-19.0.0\AndroidManifest.xml:30:13-37
+121            <intent-filter android:priority="-500" >
+121-->[com.google.firebase:firebase-messaging:19.0.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\960e6082b670919b9c04101a66bd9ed5\jetified-firebase-messaging-19.0.0\AndroidManifest.xml:31:13-33:29
+121-->[com.google.firebase:firebase-messaging:19.0.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\960e6082b670919b9c04101a66bd9ed5\jetified-firebase-messaging-19.0.0\AndroidManifest.xml:31:28-51
+122                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+122-->[com.google.firebase:firebase-messaging:19.0.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\960e6082b670919b9c04101a66bd9ed5\jetified-firebase-messaging-19.0.0\AndroidManifest.xml:32:17-78
+122-->[com.google.firebase:firebase-messaging:19.0.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\960e6082b670919b9c04101a66bd9ed5\jetified-firebase-messaging-19.0.0\AndroidManifest.xml:32:25-75
+123            </intent-filter>
+124        </service>
+125        <service
+125-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\714d0c02fcd97bb5f16c4a6228c6a8f2\jetified-firebase-iid-19.0.0\AndroidManifest.xml:29:9-35:19
+126            android:name="com.google.firebase.components.ComponentDiscoveryService"
+126-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\714d0c02fcd97bb5f16c4a6228c6a8f2\jetified-firebase-iid-19.0.0\AndroidManifest.xml:30:13-84
+127            android:exported="false" >
+127-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\714d0c02fcd97bb5f16c4a6228c6a8f2\jetified-firebase-iid-19.0.0\AndroidManifest.xml:31:13-37
+128            <meta-data
+128-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\714d0c02fcd97bb5f16c4a6228c6a8f2\jetified-firebase-iid-19.0.0\AndroidManifest.xml:32:13-34:85
+129                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+129-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\714d0c02fcd97bb5f16c4a6228c6a8f2\jetified-firebase-iid-19.0.0\AndroidManifest.xml:33:17-96
+130                android:value="com.google.firebase.components.ComponentRegistrar" />
+130-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\714d0c02fcd97bb5f16c4a6228c6a8f2\jetified-firebase-iid-19.0.0\AndroidManifest.xml:34:17-82
+131        </service>
+132
+133        <receiver
+133-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\714d0c02fcd97bb5f16c4a6228c6a8f2\jetified-firebase-iid-19.0.0\AndroidManifest.xml:37:9-44:20
+134            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+134-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\714d0c02fcd97bb5f16c4a6228c6a8f2\jetified-firebase-iid-19.0.0\AndroidManifest.xml:38:13-78
+135            android:exported="true"
+135-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\714d0c02fcd97bb5f16c4a6228c6a8f2\jetified-firebase-iid-19.0.0\AndroidManifest.xml:39:13-36
+136            android:permission="com.google.android.c2dm.permission.SEND" >
+136-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\714d0c02fcd97bb5f16c4a6228c6a8f2\jetified-firebase-iid-19.0.0\AndroidManifest.xml:40:13-73
+137            <intent-filter>
+137-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:38:13-40:29
+138                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+138-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:39:17-81
+138-->[com.hypertrack:hypertrack:4.9.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\af3f27aa3976191d27a94976161a33fd\jetified-hypertrack-4.9.0\AndroidManifest.xml:39:25-78
+139            </intent-filter>
+140        </receiver>
+141
+142        <provider
+142-->[com.google.firebase:firebase-common:18.0.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\f3a12aa88628c1d7c9dfe9535392ee44\jetified-firebase-common-18.0.0\AndroidManifest.xml:12:9-16:39
+143            android:name="com.google.firebase.provider.FirebaseInitProvider"
+143-->[com.google.firebase:firebase-common:18.0.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\f3a12aa88628c1d7c9dfe9535392ee44\jetified-firebase-common-18.0.0\AndroidManifest.xml:13:13-77
+144            android:authorities="com.hypertrack.quickstartflutter.firebaseinitprovider"
+144-->[com.google.firebase:firebase-common:18.0.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\f3a12aa88628c1d7c9dfe9535392ee44\jetified-firebase-common-18.0.0\AndroidManifest.xml:14:13-72
+145            android:exported="false"
+145-->[com.google.firebase:firebase-common:18.0.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\f3a12aa88628c1d7c9dfe9535392ee44\jetified-firebase-common-18.0.0\AndroidManifest.xml:15:13-37
+146            android:initOrder="100" />
+146-->[com.google.firebase:firebase-common:18.0.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\f3a12aa88628c1d7c9dfe9535392ee44\jetified-firebase-common-18.0.0\AndroidManifest.xml:16:13-36
+147
+148        <activity
+148-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\9aed73a7318860597043f4dea40d31ec\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+149            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+149-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\9aed73a7318860597043f4dea40d31ec\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+150            android:exported="false"
+150-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\9aed73a7318860597043f4dea40d31ec\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+151            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+151-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\9aed73a7318860597043f4dea40d31ec\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+152
+153        <meta-data
+153-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\3bddec6da8c8b2c1639757b55e30b537\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+154            android:name="com.google.android.gms.version"
+154-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\3bddec6da8c8b2c1639757b55e30b537\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+155            android:value="@integer/google_play_services_version" />
+155-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\3bddec6da8c8b2c1639757b55e30b537\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+156
+157        <provider
+157-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\3497108df6af4beb757433cfee84f3df\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+158            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+158-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\3497108df6af4beb757433cfee84f3df\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+159            android:authorities="com.hypertrack.quickstartflutter.lifecycle-process"
+159-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\3497108df6af4beb757433cfee84f3df\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+160            android:exported="false"
+160-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\3497108df6af4beb757433cfee84f3df\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+161            android:multiprocess="true" />
+161-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Nabeel\.gradle\caches\transforms-2\files-2.1\3497108df6af4beb757433cfee84f3df\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+162    </application>
+163
+164</manifest>
